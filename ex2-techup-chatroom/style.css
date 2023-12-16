@@ -1,1 +1,100 @@
-/* Start coding here */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    height: 100vh;
+}
+
+nav {
+    height: 60px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-color:#808080 ;
+    margin-bottom: 40px;
+    padding-left: 25px;
+    color: white;
+}
+
+section{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0px 20px;
+}
+
+.block-chat-right {
+    display: flex;
+    justify-content: end;
+}
+
+
+
+.chatbox {
+    height: 50px;
+    min-width: 200px;
+    width: fit-content;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    position: relative;
+}
+
+.green{
+    background-color: #09BE09;
+}
+
+.gray{
+    background-color:#E7E3E3 ;
+}
+
+.darkgray {
+    background-color: #808080;
+}
+
+.green-circle {
+    background-color: #09BE09;
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    bottom: 20px;
+    right: 0px;
+}
+.white-circle {
+    background-color: white;
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    bottom: 30px;
+    right: 2px;
+    z-index: 2;
+}
+
+.bg{
+    position: absolute;
+    height: 50px;
+    width: 100px;
+    right: 0px;
+    border-radius: 25px;
+    z-index: 3;
+    background-color: #09BE09;
+}
+
+.gray div {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #BEBEBE;
+    text-align: center;
+    color: white;
+    top: 0px;
+    right: 0px;
+}
